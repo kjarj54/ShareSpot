@@ -63,7 +63,7 @@ flutter run
 ## Technologies Used
 
 - **Flutter**: Main cross-platform development framework
-- **Google Maps API**: Map integration and location display
+- **Maps API**: Map integration and location display
 - **Dart**: Programming language for project logic
 - **CMake**: Native platform project configuration
 
