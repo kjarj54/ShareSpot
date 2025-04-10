@@ -74,7 +74,7 @@ class _HomeScreenState extends State<HomeScreen> {
       floatingActionButton: Padding(
         padding: const EdgeInsets.only(
           bottom: 80.0,
-        ), // Ajusta este valor para mover el botón más arriba o abajo
+        ), 
         child: ShareButton(location: _currentLocation),
       ),
       floatingActionButtonLocation: FloatingActionButtonLocation.endFloat,

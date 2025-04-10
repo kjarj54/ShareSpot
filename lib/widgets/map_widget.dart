@@ -25,7 +25,6 @@ class _MapWidgetState extends State<MapWidget> {
   @override
   void didUpdateWidget(MapWidget oldWidget) {
     super.didUpdateWidget(oldWidget);
-    // Cuando la ubicación cambia, centra el mapa en la nueva posición
     if (widget.location != null && 
         oldWidget.location != widget.location && 
         _mapController != null) {

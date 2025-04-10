@@ -21,7 +21,6 @@ class PermissionService {
       return permission == LocationPermission.always || 
              permission == LocationPermission.whileInUse;
     } else {
-      // Existing mobile implementation
       bool serviceEnabled = await Permission.locationWhenInUse.serviceStatus.isEnabled;
       if (!serviceEnabled) {
         return false;
